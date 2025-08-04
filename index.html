@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Downloads de Programas - Paulo Stracci</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 800px;
+      margin: 40px auto;
+      padding: 0 20px;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    h1 {
+      margin-bottom: 0.2em;
+    }
+    .programa {
+      background: white;
+      padding: 15px 20px;
+      margin-bottom: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 7px rgba(0,0,0,0.1);
+    }
+    .programa h2 {
+      margin: 0 0 8px;
+      color: #0078d7;
+    }
+    .programa p {
+      margin: 0 0 12px;
+    }
+    .botao-download {
+      background-color: #0078d7;
+      color: white;
+      padding: 8px 16px;
+      border: none;
+      border-radius: 4px;
+      text-decoration: none;
+      font-weight: bold;
+      transition: background-color 0.3s ease;
+    }
+    .botao-download:hover {
+      background-color: #005fa3;
+    }
+    footer {
+      text-align: center;
+      margin-top: 60px;
+      font-size: 0.9em;
+      color: #666;
+    }
+    /* Estilo discreto para seção de doações */
+    #donate {
+      background: #f0f0f0;
+      border: 1px solid #ddd;
+      padding: 10px 15px;
+      border-radius: 6px;
+      font-size: 0.9em;
+      color: #555;
+      max-width: 300px;
+      margin: 40px auto 0 auto;
+      text-align: center;
+      box-shadow: 0 0 5px rgba(0,0,0,0.05);
+    }
+    #donate h3 {
+      margin-top: 0;
+      font-weight: normal;
+      color: #333;
+    }
+    #donate p {
+      word-break: break-word;
+      font-family: monospace;
+      margin-bottom: 5px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Meus Programas</h1>
+    <p>Baixe os programas que criei para facilitar seu dia a dia</p>
+  </header>
+
+  <section>
+    <div class="programa">
+      <h2>Gerenciador de Atalhos</h2>
+      <p>Programa para cadastrar atalhos de teclado e colar textos automaticamente.</p>
+      <a href="downloads/autoHK.zip" class="botao-download" download>Download now</a>
+    </div>
+
+  <!-- Seção de doações -->
+  <section id="donate" aria-label="Doações">
+    <h3>Gostou? Considere doar!</h3>
+    <p>PIX para doação:</p>
+    <img src="img/qrcode-pix.png" alt="QR Code do PIX para doação" style="max-width:200px; margin-top:10px;"/>
+  </section>
+
+  <footer>
+    &copy; 2025 Paulo Stracci - <a href="https://www.paulo-stracci.dev" target="_blank" rel="noopener noreferrer">paulo-stracci.dev</a>
+  </footer>
+</body>
+</html>
